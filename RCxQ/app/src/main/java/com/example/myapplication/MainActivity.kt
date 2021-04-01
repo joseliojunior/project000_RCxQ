@@ -48,25 +48,38 @@ class MainActivity : AppCompatActivity() {
         val result = findViewById<TextView>(R.id.result)
 
         try {
-            val r = a.toDouble() / b.toDouble()
+            val cc = a.toDouble()
+            val cq = b.toDouble()
+            val r = cc / cq
+            val mRange = 10.0..200.0
 
             val msg = when (sex) {
                 "m" -> {
-                    if (r >= 1) {
-                        result.setTextColor(Color.parseColor("#F44336"))
-                        "${round(r * 100) / 100}\n" + getString(R.string.risk)
+                    if(cc in mRange && cq in mRange){
+                        if (r >= 1) {
+                            result.setTextColor(Color.parseColor("#F44336"))
+                            "${round(r * 100) / 100}\n" + getString(R.string.risk)
+                        } else {
+                            result.setTextColor(Color.parseColor("#4CAF50"))
+                            "${round(r * 100) / 100}\n" + getString(R.string.no_risk)
+                        }
                     } else {
-                        result.setTextColor(Color.parseColor("#4CAF50"))
-                        "${round(r * 100) / 100}\n" + getString(R.string.no_risk)
+                        result.setTextColor(Color.parseColor("#FFFF00"))
+                        getString(R.string.range_excp)
                     }
                 }
                 "f" -> {
-                    if (r >= 0.85) {
-                        result.setTextColor(Color.parseColor("#F44336"))
-                        "${round(r * 100) / 100}\n" + getString(R.string.risk)
+                    if(cc in mRange && cq in mRange){
+                        if (r >= 0.85) {
+                            result.setTextColor(Color.parseColor("#F44336"))
+                            "${round(r * 100) / 100}\n" + getString(R.string.risk)
+                        } else {
+                            result.setTextColor(Color.parseColor("#4CAF50"))
+                            "${round(r * 100) / 100}\n" + getString(R.string.no_risk)
+                        }
                     } else {
-                        result.setTextColor(Color.parseColor("#4CAF50"))
-                        "${round(r * 100) / 100}\n" + getString(R.string.no_risk)
+                        result.setTextColor(Color.parseColor("#FFFF00"))
+                        getString(R.string.range_excp)
                     }
                 }else -> getString(R.string.selection_error)
             }
