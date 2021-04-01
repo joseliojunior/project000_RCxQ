@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             val cc = a.toDouble()
             val cq = b.toDouble()
             val r = cc / cq
-            val mRange = 10.0..200.0
+            val mRange = 10.0..480.0
 
             val msg = when (sex) {
                 "m" -> {
