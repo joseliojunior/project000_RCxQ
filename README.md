@@ -3,15 +3,15 @@
 Este é um projeto simples de cálculo da relação entre a circunferência de cintura e a circunferência de quadril.
 |                     Ícone do aplicativo.                     |                        Modo inicial.                         |                      Sexo selecionado.                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![appMenuIcon](/img/appMenuIcon.png) | ![appIdle](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appIdle.png?raw=true) | ![appSelect](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appSelect.png?raw=true) |
+| ![appMenuIcon](/img/appMenuIcon.png) | ![appIdle](/img/appIdle.png) | ![appSelect](/img/appSelect.png) |
 |                   **Feminino sem risco.**                    |                   **Feminino com risco.**                    |                   **Masculino sem risco.**                   |
-| ![appSelectAndInputsResultNoRisk](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appSelectAndInputsResultNoRisk.png?raw=true) | ![appSelectAndInputsResultRisk](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appSelectAndInputsResultRisk.png?raw=true) | ![appSelectAndInputsResultNoRiskMale](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appSelectAndInputsResultNoRiskMale.png?raw=true) |
+| ![appSelectAndInputsResultNoRisk](/img/appSelectAndInputsResultNoRisk.png) | ![appSelectAndInputsResultRisk](/img/appSelectAndInputsResultRisk.png) | ![appSelectAndInputsResultNoRiskMale](/img/appSelectAndInputsResultNoRiskMale.png) |
 
 
 
 |Nenhum dado digitado.| Medidas digitadas, mas sexo não selecionado. |
 | :--: | :----------------------------------------------------------: |
-| ![appNoInputs](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appNoInputs.png?raw=true) | ![appNoSexSelect](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appNoSexSelect.png?raw=true) |
+| ![appNoInputs](/img/appNoInputs.png?raw=true) | ![appNoSexSelect](/img/appNoSexSelect.png) |
 
 **Exemplo em modo paisagem.**
-![Landscape](https://github.com/joseliojunior/everisKotlinDeveloper/blob/master/projects/project000_RCxQ/img/appSelectAndInputsResultNoRiskLandscape.png?raw=true)
+![Landscape](/img/appSelectAndInputsResultNoRiskLandscape.png)
